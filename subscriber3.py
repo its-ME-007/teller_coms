@@ -22,5 +22,5 @@ def main():
     client.connect(broker, port, keepalive=30)
     client.loop_forever()
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+main()
