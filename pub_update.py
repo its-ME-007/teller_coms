@@ -1,4 +1,3 @@
-# Can add a custom message to source if required
 import paho.mqtt.client as mqtt
 import json
 import time
@@ -7,12 +6,18 @@ import time
 broker = "localhost"
 port = 1883  
 
-# Available destinations
+# Updated available destinations to include users 1-10
 users = {
     "1": "message_to_1",
     "2": "message_to_2",
     "3": "message_to_3",
-    "4": "message_to_4"
+    "4": "message_to_4",
+    "5": "message_to_5",
+    "6": "message_to_6",
+    "7": "message_to_7",
+    "8": "message_to_8",
+    "9": "message_to_9",
+    "10": "message_to_10"
 }
 
 def main():
