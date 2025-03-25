@@ -53,22 +53,22 @@ The system allows messages to be sent from one user to another while maintaining
    mosquitto
    ```
 
-2. Run the main script to start all subscribers:
+2. Run the OOPS subscriber script to start all subscribers:
    ```
-   python main.py
+   python sub_oops.py
    ```
 
 3. In a separate terminal, run the publisher script:
    ```
-   python publisher.py
+   python pub_update.py
    ```
 
 #### Sending Messages
 
 When running the publisher:
 
-1. Select a source user (1-4)
-2. Select a destination user (1-4)
+1. Select a source user (1-10)
+2. Select a destination user (1-10)
 3. Enter your message
 4. Choose whether to send another message or exit
 
