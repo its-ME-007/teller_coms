@@ -3,8 +3,13 @@ import time
 import signal
 import sys
 
-# List of subscriber scripts
-subscribers = ["subscriber1.py", "subscriber2.py", "subscriber3.py"]
+# Updated list of subscriber scripts to include subscribers 4-10
+subscribers = [
+    "subscriber1.py", "subscriber2.py", "subscriber3.py", 
+    "subscriber4.py", "subscriber5.py", "subscriber6.py", 
+    "subscriber7.py", "subscriber8.py", "subscriber9.py", 
+    "subscriber10.py"
+]
 
 # Store processes
 processes = []
@@ -31,4 +36,4 @@ if __name__ == "__main__":
 
     print("Subscribers are running... Press Ctrl+C to stop.")
     while True:
-        time.sleep(1)  
+        time.sleep(1)
